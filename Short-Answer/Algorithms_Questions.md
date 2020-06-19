@@ -11,6 +11,10 @@ a)  a = 0
       a = a + n * n
 ```
 
+n = 1, runs = 1, a = 1
+n = 5, runs = 5, a = 125
+n = 10, runs = 10, a = 1000
+O(n)
 
 ```
 b)  sum = 0
@@ -21,6 +25,8 @@ b)  sum = 0
         sum += 1
 ```
 
+O(n log n)
+
 ```
 c)  def bunnyEars(bunnies):
       if bunnies == 0:
@@ -28,6 +34,11 @@ c)  def bunnyEars(bunnies):
 
       return 2 + bunnyEars(bunnies-1)
 ```
+
+n = 1, runs = 2, return = 2
+n = 5, runs = 6, return = 10
+n = 10, runs = 11, return = 20
+O(n+1)
 
 ## Exercise II
 
