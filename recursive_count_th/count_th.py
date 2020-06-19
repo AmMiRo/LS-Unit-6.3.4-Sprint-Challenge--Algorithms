@@ -22,15 +22,13 @@ def count_th(word):
     else:
         inc = 0
         word = "~" + word
-    print(word)
+    # print(word)
     if inc < len(word):
-        if inc + 2 ==  len(word):
+        if inc + 2 >=  len(word):
             return 0
         elif f"{word[inc + 1]}{word[inc + 2]}" == "th":
-            print(1 + count_th(word[:inc] + word[inc + 1:inc + 3] + "~" +  word[inc + 3:]))
             return 1 + count_th(word[:inc] + word[inc + 1:inc + 3] + "~" +  word[inc + 3:])
         else:
-            print(0 + count_th(word[:inc] + word[inc + 1] + "~" +  word[inc + 2:]))
             return 0 + count_th(word[:inc] + word[inc + 1] + "~" +  word[inc + 2:])
     else:
         return 0
