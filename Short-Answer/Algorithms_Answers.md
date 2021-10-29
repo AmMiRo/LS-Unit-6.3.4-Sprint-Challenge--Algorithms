@@ -47,6 +47,6 @@ def find_floor(n):
     - confirmed = True
     - return "Building too short."
 
-Note: thrown dictionary used to make algorithm O(log2n) rather than O(log2n + c).
+Note: thrown dictionary used to make algorithm O(log2n) rather than O(log2n + 1).
 
 Algorithm is O(log2n) since the loop will run log2 n times in the worst case scinerio. While the overall number of eggs dropped will be lower, the number of those eggs that will break is higher in the worst case scinerio. In a worst case scinerio this solution will have log2n \* 2 for dropped + broken eggs which will still be lower than n.
