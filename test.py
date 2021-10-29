@@ -1,0 +1,50 @@
+def find_sum(n):
+    sum = 0
+    for i in range(n):
+        j = 1
+        while j < n:
+            j *= 2
+            sum += 1
+    return sum
+
+print(1)
+print(find_sum(1))
+print(2)
+print(find_sum(2))
+print(3)
+print(find_sum(3))
+print(4)
+print(find_sum(4))
+print(5)
+print(find_sum(5))
+print(6)
+print(find_sum(6))
+print(7)
+print(find_sum(7))
+print(8)
+print(find_sum(8))
+print(9)
+print(find_sum(9))
+print(10)
+print(find_sum(10))
+print(11)
+print(find_sum(11))
+print(12)
+print(find_sum(12))
+print(13)
+print(find_sum(13))
+print(14)
+print(find_sum(14))
+print(15)
+print(find_sum(15))
+print(16)
+print(find_sum(16))
+print(17)
+print(find_sum(17))
+print(18)
+print(find_sum(18))
+print(19)
+print(find_sum(19))
+print(20)
+print(find_sum(20))
+print(find_sum(100))
